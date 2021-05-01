@@ -109,6 +109,12 @@ body {
   height: 100%;
 }
 
+header, .bio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -128,6 +134,7 @@ body {
   font-size: 1.75em;
   background-color: #000;
   height: 300px;
+  
 }
 
 .div-2 {
@@ -136,8 +143,17 @@ body {
     padding: 0 30px;
 }
 
+h1 {
+    font-size: 4em;
+}
 
+p {
+    font-size: 1.75em;
+}
 
+.bio span {
+    font-style: italic;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
